@@ -1,1 +1,3 @@
 # gcp-terraform-platform
+1. This is the google infrasture repo where we created Virtual Machines, Isolated Network, IAM roles and multiple resource via terrafom with a dedicated project and folder with isolated customer stack demo.
+2. We are planning to setup Google Kubernetes Engine for deploying application on pods and master slave architecture....

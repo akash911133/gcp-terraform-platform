@@ -3,7 +3,7 @@ provider "google" {
     region  = var.STACK_REGION 
     default_tags {
         tags = {
-          Name                   = var.STACK_NAME
+          name                   = var.STACK_NAME
           description            = "decription"
           managed_by             = "terraform"
           infrastructure-version = var.NCO_VERSION

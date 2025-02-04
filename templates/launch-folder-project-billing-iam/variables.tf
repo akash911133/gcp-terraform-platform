@@ -1,3 +1,17 @@
+variable "BACKEND_BUCKET" {
+  type = string
+  default = "gcp-cloud-platform"
+  description = "this is the default bucket for storing the statefile"
+}
+
+variable "ORGANIZATION_ID" {
+  type = string
+  default = "8496532541"
+}
+
+
+
+
 variable "STACK_PROJECT" {
     type = string
   }
